@@ -8,7 +8,7 @@
   <br>
   <br>
   <% if !@task.new_record? %>
-    <%= f.check_box :completed %>
+    <%= f.check_box (:completed) %>
     <%= f.label :completed, class: "form-label" %>
     <br>
     <br>
